@@ -1,0 +1,13 @@
+name = "gleam_os_mon"
+version = "0.0.1"
+licences = ["Apache-2.0"]
+description = "A wrapper for the os_mon functionality"
+
+repository = { type = "github", user = "manveru", repo = "gleam_os_mon" }
+links = []
+
+[dependencies]
+gleam_erlang = "~> 0.15"
+
+[dev-dependencies]
+gleeunit = "~> 0.6"
